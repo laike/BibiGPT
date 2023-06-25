@@ -4,7 +4,6 @@
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 const { withSentryConfig } = require('@sentry/nextjs')
 
-
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
